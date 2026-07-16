@@ -1,86 +1,256 @@
-<h1 align="center">Hi there 👋, I'm Vansh</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vansh | Portfolio</title>
 
-<p align="center">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0d1117;
+    color:#fff;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    padding:40px 0;
+}
+
+.card{
+    background:#161b22;
+    border:1px solid #30363d;
+    border-radius:18px;
+    padding:30px;
+    margin-bottom:30px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 25px rgba(88,166,255,.2);
+}
+
+h1{
+    font-size:48px;
+    color:#58a6ff;
+    margin-bottom:15px;
+}
+
+h2{
+    color:#58a6ff;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    font-size:18px;
+    line-height:1.8;
+    color:#c9d1d9;
+}
+
+ul{
+    padding-left:25px;
+    line-height:2;
+}
+
+.badges img{
+    margin:8px;
+    transition:.3s;
+}
+
+.badges img:hover{
+    transform:scale(1.08);
+}
+
+.links{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.links img{
+    transition:.3s;
+}
+
+.links img:hover{
+    transform:scale(1.08);
+}
+
+.github{
+    text-align:center;
+}
+
+.github img{
+    width:100%;
+    max-width:600px;
+    border-radius:10px;
+}
+
+.quote{
+    text-align:center;
+    font-size:24px;
+    color:#58a6ff;
+    font-weight:600;
+    padding:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#8b949e;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h1>Hi there 👋, I'm Vansh</h1>
+
+<p class="subtitle">
 💻 Computer Science Engineering Student <br>
-🚀 Passionate about AI, Software Development &amp; Building Cool Things <br>
+🚀 Passionate about AI, Software Development & Building Cool Things <br>
 🎯 Goal: Build products that impact millions of people
 </p>
 
-<hr>
+</div>
+
+<div class="card">
 
 <h2>🚀 About Me</h2>
 
 <ul>
-  <li>🎓 B.Tech CSE Student</li>
-  <li>🤖 Currently learning Artificial Intelligence &amp; Machine Learning</li>
-  <li>💻 Interested in Full Stack Development</li>
-  <li>⚡ Love exploring new technologies</li>
-  <li>🎨 Graphic Designer &amp; Video Editor</li>
-  <li>🌱 Learning something new every day</li>
+<li>🎓 B.Tech CSE Student</li>
+<li>🤖 Currently learning Artificial Intelligence & Machine Learning</li>
+<li>💻 Interested in Full Stack Development</li>
+<li>⚡ Love exploring new technologies</li>
+<li>🎨 Graphic Designer & Video Editor</li>
+<li>🌱 Learning something new every day</li>
 </ul>
 
-<hr>
+</div>
+
+<div class="card">
 
 <h2>🛠️ Tech Stack</h2>
 
 <h3>Languages</h3>
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-</p>
+<div class="badges">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</div>
+
+<br>
 
 <h3>Web</h3>
 
-<p>
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-</p>
+<div class="badges">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+</div>
+
+<br>
 
 <h3>Tools</h3>
 
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code">
-</p>
+<div class="badges">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
+</div>
 
-<hr>
+</div>
+
+<div class="card github">
 
 <h2>📊 GitHub Stats</h2>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=vanshhh01&theme=tokyonight" alt="GitHub Streak">
-</p>
+<img src="https://streak-stats.demolab.com?user=vanshhh01&theme=tokyonight">
 
-<hr>
+</div>
+
+<div class="card">
 
 <h2>🚀 Currently Working On</h2>
 
 <ul>
-  <li>🤖 AI Projects</li>
-  <li>🌐 Full Stack Development</li>
-  <li>🧠 Data Structures &amp; Algorithms</li>
-  <li>📚 Open Source Contributions</li>
+<li>🤖 AI Projects</li>
+<li>🌐 Full Stack Development</li>
+<li>🧠 Data Structures & Algorithms</li>
+<li>📚 Open Source Contributions</li>
 </ul>
 
-<hr>
+</div>
 
-<h2>🌐 Connect with Me</h2>
+<div class="card">
 
-<p>
-  <a href="https://linkedin.com/in/vanshhh">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
-  </a>
+<h2>🌐 Connect With Me</h2>
 
-  <a href="mailto:vanshchauhan047@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
+<div class="links">
 
-<hr>
+<a href="https://linkedin.com/in/vanshhh" target="_blank">
+<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin">
+</a>
 
-<p align="center">
-  <i>"Build. Learn. Repeat."</i> 🚀
-</p>
+<a href="mailto:vanshchauhan047@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>💻 Coding Profiles</h2>
+
+<div class="links">
+
+<a href="https://www.hackerrank.com/profile/vanshchauhan047" target="_blank">
+<img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white">
+</a>
+
+<a href="https://www.codechef.com/users/vanshhh01" target="_blank">
+<img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white">
+</a>
+
+<a href="https://leetcode.com/u/1jKRAZmjNm/" target="_blank">
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black">
+</a>
+
+<a href="https://www.geeksforgeeks.org/profile/vanshhh" target="_blank">
+<img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white">
+</a>
+
+</div>
+
+</div>
+
+<div class="card quote">
+"Build. Learn. Repeat."
+</div>
+
+<footer>
+Made with ❤️ by Vansh
+</footer>
+
+</div>
+
+</body>
+</html>
