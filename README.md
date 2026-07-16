@@ -59,20 +59,10 @@
 
 ### 💻 Coding Profiles
 
-<p align="left">
-  <a href="https://www.hackerrank.com/profile/vanshchauhan047" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hackerrank/hackerrank-original.svg" alt="HackerRank" width="40" height="40"/>
-  </a>
-  <a href="https://www.codechef.com/users/vanshhh01" target="_blank">
-    <img src="https://cdn.simpleicons.org/codechef/5B4638" alt="CodeChef" width="40" height="40"/>
-  </a>
-  <a href="https://leetcode.com/u/1jKRAZmjNm/" target="_blank">
-    <img src="https://cdn.simpleicons.org/leetcode/FFA116" alt="LeetCode" width="40" height="40"/>
-  </a>
-  <a href="https://www.geeksforgeeks.org/profile/vanshhh" target="_blank">
-    <img src="https://cdn.simpleicons.org/geeksforgeeks/2F8D46" alt="GeeksforGeeks" width="40" height="40"/>
-  </a>
-</p>
+[![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/vanshchauhan047)
+[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/vanshhh01)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/1jKRAZmjNm/)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/vanshhh)
 
 ---
 
