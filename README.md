@@ -57,4 +57,13 @@
 
 ---
 
+## 💻 Coding Profiles
+
+- 🟢 HackerRank: https://www.hackerrank.com/profile/vanshchauhan047
+- 🍛 CodeChef: https://www.codechef.com/users/vanshhh01
+- 🟡 LeetCode: https://leetcode.com/u/1jKRAZmjNm/
+- 💚 GeeksforGeeks: https://www.geeksforgeeks.org/profile/vanshhh
+
+---
+
 > *"Build. Learn. Repeat."* 
